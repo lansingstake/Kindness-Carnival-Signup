@@ -155,6 +155,10 @@ function App() {
           <>
             <div className="header">
               <h1 className="title">Kindness Carnival</h1>
+              <div style={{ textAlign: 'center', marginBottom: '1.5rem', marginTop: '-0.5rem' }}>
+                <span style={{ fontSize: '1.05rem', color: 'var(--text-secondary)' }}>More Info: </span>
+                <a href="http://Carnival.LansingStake.org" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', borderBottom: '2px solid var(--primary)' }}>Carnival.LansingStake.org</a>
+              </div>
               <div className="subtitle" style={{ marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '1.2rem', alignItems: 'center' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.75rem' }}>
                   <Calendar style={{ color: 'var(--primary)' }} size={24} />
