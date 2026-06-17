@@ -282,6 +282,17 @@ function App() {
             </p>
           </div>
         )}
+
+        <div style={{ textAlign: 'center', marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid var(--border)' }}>
+          <a 
+            href="https://docs.google.com/spreadsheets/d/1bryfwO2svh-h7pOdPYJaRNiNjje-dVypWTX1rXanBIg/edit?gid=733020565#gid=733020565" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', textDecoration: 'underline' }}
+          >
+            Admin Data Link
+          </a>
+        </div>
       </div>
     </div>
   );
