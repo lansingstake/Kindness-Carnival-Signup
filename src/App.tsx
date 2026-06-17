@@ -154,8 +154,9 @@ function App() {
         {!isSuccess ? (
           <>
             <div className="header">
-              <h1 className="title">Kindness Carnival</h1>
-              <div style={{ textAlign: 'center', marginBottom: '1.5rem', marginTop: '-0.5rem' }}>
+              <h1 className="title" style={{ marginBottom: '0.25rem' }}>Kindness Carnival</h1>
+              <h2 style={{ fontSize: '1.6rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'center' }}>Volunteer Sign-up</h2>
+              <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
                 <span style={{ fontSize: '1.05rem', color: 'var(--text-secondary)' }}>More Info: </span>
                 <a href="http://Carnival.LansingStake.org" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none', borderBottom: '2px solid var(--primary)' }}>Carnival.LansingStake.org</a>
               </div>
